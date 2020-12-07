@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,600;1,600&family=Fondamento:ital@0;1&family=Irish+Grover&display=swap');
+
+body {
+    background-image: url("../images/background-body.png");
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.main-body {
+    max-width: 90%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Fondamento" , sans-serif;
+    text-align: center;
+    color: #a62d37;
+}
+
+.top-title {
+    font-size: 60px;
+    color: #02630a;
+    outline-color: #bfba69;
+    text-shadow: 2px 1px 1px #bfba69;
+	-webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: #bfba69;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.bottom-title {
+    font-family: "Irish Grover" , sans-serif;
+    font-size: 90px;
+    outline-color: #bfba69;
+    text-shadow: 2px 1px 1px #bfba69;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #bfba69;
+    margin-bottom: 100px;
+    margin-top: 15px;
+}
+
+.btn-play {
+    font-size: 1.8rem;
+    font-family: "Fondamento";
+    padding: 30px;
+    text-align: center;
+    border: 1px solid #bfba69;
+    color: #02630a;
+    background-color: #bfba69;
+    border-radius: 50%;
+    text-decoration: none;
+}
