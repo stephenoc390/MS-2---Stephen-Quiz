@@ -21,6 +21,7 @@
    },
 "emmet.extensionsPath": ".theia",
 "cSpell.ignoreWords": [
+    "dougal",
     "gitpod"
 ]
 }

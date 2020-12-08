@@ -6,39 +6,43 @@ body {
     min-height: 100vh;
     width: 100%;
     position: relative;
+    background-color: #2d2c2c;
 }
 
-.main-body {
-    max-width: 90%;
+.homepage-body {
+    width: 95%;
+    height: 900px;
     position: absolute;
-    top: 30%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: "Fondamento" , sans-serif;
     text-align: center;
     color: #a62d37;
+    background-color: rgba(255,255,255,0.1);
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .top-title {
-    font-size: 60px;
+    font-size: 40px;
     color: #02630a;
     outline-color: #bfba69;
     text-shadow: 2px 1px 1px #bfba69;
 	-webkit-text-stroke-width: .5px;
     -webkit-text-stroke-color: #bfba69;
-    margin-top: 60px;
-    margin-bottom: 20px;
+    clear: both;
+    
 }
 
 .bottom-title {
     font-family: "Irish Grover" , sans-serif;
-    font-size: 90px;
+    font-size: 60px;
     outline-color: #bfba69;
     text-shadow: 2px 1px 1px #bfba69;
 	-webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #bfba69;
-    margin-bottom: 100px;
-    margin-top: 15px;
+  
 }
 
 .btn-play {
@@ -51,4 +55,21 @@ body {
     background-color: #bfba69;
     border-radius: 50%;
     text-decoration: none;
+    text-shadow: 2px 1px 1px #02630a;
+    
+}
+
+.levels-body {
+    width: 95%;
+    height: 900px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Fondamento" , sans-serif;
+    text-align: center;
+    color: #a62d37;
+    background-color: rgba(255,255,255,1);
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
